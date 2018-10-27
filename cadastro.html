@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agronomia</title>
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+
+
+  </head>
+  <body>
+    <nav class="navbar  navbar-inverse nav-transparente">
+        <div class="container">
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle collapsed"
+                         data-toggle="collapse" data-target="#barraNav">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a href="index.html" class="navbar-brand">
+                    <img src="imagens/logo.gif" class="foto-logo">
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="barraNav">
+                <ul class="nav navbar-nav navbar-right" id="itensNav">
+                    <li><a  href="index.html">Home</a></li>
+                    <li><a  href="quem-somos.html">Quem somos</a></li>
+                    <li><a  href="produtos.html">Produtos</a></li>
+                    <li><a  href="contatos.html">Contatos</a></li>
+                    <li><a  href="cadastro.html">Cadastre-se</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </nav>
+
+    <section>
+        <h1 id="titulo_principal">CADASTRO DE AGRONOMOS</h1>
+        <div id="msg"></div>
+        <div id="formulario">
+            <h2>Formulário</h2>
+
+            <form id="form_cadastro" method="#">
+                
+
+                <div class="form-group">
+                  <label for="nome">Nome</label>
+                  <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+                </div>
+
+                <div class="form-group">
+                        <label>Sexo</label></br>
+                        <input type="radio" name="sexo" id="masculino">
+                        <label for="masculino">Masculino</label>
+                        <input type="radio" name="sexo" id="feminino">
+                        <label for="feminino">Feminino</label>
+                </div>
+
+                <div class="form-group">
+                        <label for="endereco">Endereço</label>
+                        <input type="text" class="form-control" id="endereco" placeholder="Digite seu endereco" required>
+                </div>
+
+                <div class="form-group">
+                        <label for="estado">Estado</label>
+                        <select name="estados" id="estados">
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraiba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP" selected="">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantis</option>
+                        </select>
+                </div>
+
+                <div class="form-group">
+                    <input type="checkbox" id="li" required checked>
+                    <label for="cidade">Li o contrato e aceito os termos.</label>
+                        
+                </div>
+
+                
+                    <button type="submit" id="btn-cadastrar" class="btn btn-success">Salvar</button>
+                
+              </form>
+        </div>
+                
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row bloco">
+                <div class="col-md-4 col-tds">
+                    <a href="index.html" class="navbar-brand">
+                       <img src="imagens/logo.gif" class="foto-logo" id="logo_footer">
+                    </a>
+                </div>
+                <div class="col-md-4 col-tds" id="linksFooter">
+                      <ul>
+                        <h4>LINKS</h4>
+                        <li><a  href="quem-somos.html">Quem somos</a></li>
+                        <li><a  href="produtos.html">Produtos</a></li>
+                        <li><a  href="contatos.html">Contatos</a></li>
+                        <li><a  href="cadastro.html">Cadastre-se</a></li>
+                        
+                      </ul>
+                </div>
+                <div class="col-md-4 col-tds">
+                        <h4>Endereço</h4>
+
+                        <address>
+                            <i class="fa fa-map-marker">Rua: teste, 1000, centro.</i>
+                        </address>
+
+
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

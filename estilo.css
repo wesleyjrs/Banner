@@ -1,0 +1,217 @@
+#secaoBanner {
+    position: relative;
+}
+#banner {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    position: relative;
+}
+
+.nav-transparente {
+    padding: 20px;
+    background: #000;
+    border: none;
+    position: relative;
+    margin: 0;
+}
+
+#itensNav {
+    margin-right: 25px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.titulo {
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+    margin: 50px 30px;
+}
+
+#texto {
+    margin: 20px 40px;
+}
+
+#texto .paragrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.foto-logo{
+    width: 90px;
+    height: 80px;
+    position: absolute;
+    top: 5px;
+    margin-left: 20px;
+}
+
+#divFlutuante{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0px;
+}
+
+#bannerCad {
+    width: 800px;
+    height: 380px;
+    position: fixed;
+   /* background: rgba(1, 95, 9, 0.8);*/
+    top: 150px;
+    left: 300px;
+    border-radius: 20px;
+}
+
+#cadLeft {
+    width:400px;
+    height:380px;
+    float:left;
+    background: #000;
+    border-radius: 20px 0px 0px 20px;
+    
+}
+
+#cadRight {
+    width:400px;
+    height:380px;
+    float:right;
+    background-color:#fff;
+    border-radius: 0px 20px 20px 0px;
+}
+
+#botaoX {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+#logoBanner {
+    position: relative;
+    right: 50px;
+    top: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    margin-top: 200px;
+}
+
+.col-tds{
+    color: #fff;
+}
+
+.bloco {
+    margin-top: 20px;
+}
+
+#logo_footer{
+    width: 200px;
+    height: 150px;
+}
+
+#linksFooter{
+    color: #fff;
+}
+
+#linksFooter a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+#linksFooter a:hover{
+    color: #fff;
+    background: #fff;
+    color: rgb(2, 44, 4);
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+#linksFooter ul{
+    list-style-type:none;
+}
+#linksFooter li{
+    margin: 7px;
+}
+
+#ultimaBarra{
+    margin-top: 31px;
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    margin-bottom: 1px;
+}
+
+#form_cadastro{
+    margin:25px;
+}
+
+.campos{
+    padding: 0;
+    margin:10px 0;
+}
+
+#btn-cadastrar-formulario{
+    position: relative;
+    top: 100px;
+    left: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:rgb(2, 80, 4); 
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 35px;
+    border-radius: 10px;
+    
+}
+
+#msgBanner{
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 80px 20px 0px 20px;
+
+}
+
+#titulo_principal{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+#formulario {
+    width: 800px;
+    height: 100%;
+    border: solid rgba(0, 0, 0, 0.8) 1px;
+    margin: 50px 40px 10px 40px;
+    border-radius: 20px;
+    position: relative;
+    left: 280px;
+    padding: 20px;
+}
+
+#formulario h2 {
+    
+    text-align: center;
+    margin-bottom: 30px;
+}
